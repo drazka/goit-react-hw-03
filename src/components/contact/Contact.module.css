@@ -1,3 +1,33 @@
+.buttonDelete {
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 .contact {
-    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 350px;
+}
+
+.contactName {
+    font-size: 20px;
+}
+
+.contactNumber {
+    font-size: 20px;
+}
+
+.iconName {
+    margin-right: 10px;
+}
+
+.iconNumber {
+    margin-right: 10px;
 }
